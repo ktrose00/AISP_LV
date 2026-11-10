@@ -72,7 +72,6 @@ int main()
 	element* presjek = presjekLista(L1, L2);
 
 	element* unija = unijaLista(L1, L2);
-	unija = sortirajListu(unija);
 
 	printf("\nPresjek dvaju lista je: ");
 	ispisiListu(presjek);
